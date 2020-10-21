@@ -48,3 +48,10 @@
 - await the result of fetch and store in this variable called response
 
 - removed console.log for clean code but `console.log("yay!)` lets us inspect in the console and if it as a success, it will print out yay to notify us (good check purposes)
+
+### Summary
+1. Written async function that makes the fetch request
+
+2. Turns the body of what comes in the HTTP response into a blob
+
+3. Convert blob into a function that the dom element can work with
