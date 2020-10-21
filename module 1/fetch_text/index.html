@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <title>Fetch the Chapter</title>
+ </head>
+
+ <body>
+   <h1>Fetch the Chapter</h1><br>
+
+   <img src="" id="wizard" width=55% />
+
+   <p id="chapter"/>
+
+   <script>
+     catchChapter()
+      .then(chapter => {
+        document.getElementById('chapter').innerText = chapter;
+      })
+       .catch(error => {
+         console.error(error);
+       });
+
+     async function catchChapter() {
+       const response = await fetch('chapter.txt');
+       return await response.text();
+     }
+
+     catchImage()
+     .catch(error => {
+     console.error(error);
+     });
+
+     async function catchImage() {
+      const response = await fetch('wizard.jpg');
+      const blob = await response.blob();
+      document.getElementById('wizard').src = URL.createObjectURL(blob);
+     }
+   </script>
+ </body>
+
+ </html>
