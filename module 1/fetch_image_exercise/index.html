@@ -4,8 +4,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>.....</title>
+  <title>Fetch the Rainbow</title>
 </head>
 <body>
+  <h1>Fetch the Rainbow</h1><br>
+  <img src="" id="rainbow" width= 75% height= 75%/>
+  <script>
+    catchRainbow()
+      .catch(error => {
+        console.error(error);
+      });
+    
+    async function catchRainbow() {
+      const response = await fetch('rainbow.jpg');
+      const blob = await response.blob();
+      document.getElementById('rainbow').src = URL.createObjectURL(blob);
+    }
+  </script>
 </body>
 </html>
