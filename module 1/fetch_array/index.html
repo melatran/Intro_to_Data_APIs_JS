@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Fetch An Array</title>
+</head>
+
+<body>
+  <h1>Fetch An Array of Life</h1><br>
+  <script>
+    const filenames = [
+      'images/1.jpg',
+      'images/2.jpg',
+      'images/3.jpg'
+    ];
+
+    catchLife(filenames)
+      .catch(error => {
+        console.error(error);
+      });
+
+    async function catchLife(filenames){
+      for (let filename of filenames) {
+        const response = await fetch(filename);
+        const blob = await response.blob();
+        const img = document.createElement('img');
+        img.src = URL.createObjectURL(blob);
+        img.width = '200';
+        document.body.append(img);
+      }
+    }
+  </script>
+</body>
+
+</html>
