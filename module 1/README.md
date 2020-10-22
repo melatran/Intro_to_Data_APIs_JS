@@ -103,7 +103,7 @@ With the addition of defining the year and temp, it only took the information re
 
 ## Creating a Graph
 
-<img width="823" alt="Screen Shot 2020-10-21 at 5 18 58 PM" src="https://user-images.githubusercontent.com/59414750/96799979-82dbf080-13c1-11eb-9679-24ff9e21cabf.png">
+<img width="1213" alt="Screen Shot 2020-10-22 at 7 42 14 AM" src="https://user-images.githubusercontent.com/59414750/96880405-5e702a80-143a-11eb-9ce0-298c47e7799d.png">
 
 - `<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>` this is a JS library from the internet that can be imported
 
