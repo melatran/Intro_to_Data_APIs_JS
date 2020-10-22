@@ -100,3 +100,15 @@ With the addition of defining the year and temp, it only took the information re
 2. Split the data into rows from the table and put it into a varaible called table
 
 3. Going through each row and split each row into its corresponding column
+
+## Creating a Graph
+
+<img width="823" alt="Screen Shot 2020-10-21 at 5 18 58 PM" src="https://user-images.githubusercontent.com/59414750/96799979-82dbf080-13c1-11eb-9679-24ff9e21cabf.png">
+
+- `<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>` this is a JS library from the internet that can be imported
+
+- you need a canvas for the graph to be worked on
+
+- order matters
+
+# Fetch JSON
