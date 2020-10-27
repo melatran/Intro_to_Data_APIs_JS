@@ -1,0 +1,24 @@
+{
+  "name": "intro_to_data_apis_js",
+  "version": "1.0.0",
+  "description": "This is the data selfie app by Joey Lee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melatran/Intro_to_Data_APIs_JS.git"
+  },
+  "keywords": [
+    "example",
+    "data",
+    "selfie"
+  ],
+  "author": "Melanie Tran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melatran/Intro_to_Data_APIs_JS/issues"
+  },
+  "homepage": "https://github.com/melatran/Intro_to_Data_APIs_JS#readme"
+}

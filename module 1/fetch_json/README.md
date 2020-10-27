@@ -10,9 +10,17 @@
 
     - only want the lat and lon to display on the page
 
+    - no authentication required
+
 - also use Leaflet library to map
 
-- let pos = {
+- JSON similar to JS object
+
+```
+let pos = {
     lat: -45
     lon: 122
 };
+```
+
+
