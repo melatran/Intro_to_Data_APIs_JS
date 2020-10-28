@@ -121,3 +121,9 @@ const data = { lat, lon };
 - this app uses NeDB (not for giant applications just for learnin
 
 - when user clicks submit, it adds the new lat and lon to the array in our db (db starts of empty)
+
+- `database.insert({name: "MoMo", status: '🧑🏻‍🎤'});`
+
+- result save in db `{"name":"MoMo","status":"🧑🏻‍🎤","_id":"D8JO3fY4tJN1EMqj"}`
+
+- this will save to database.db file from the client side
