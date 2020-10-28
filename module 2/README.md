@@ -127,3 +127,6 @@ const data = { lat, lon };
 - result save in db `{"name":"MoMo","status":"🧑🏻‍🎤","_id":"D8JO3fY4tJN1EMqj"}`
 
 - this will save to database.db file from the client side
+
+## Database Query
+
