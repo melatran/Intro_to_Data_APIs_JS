@@ -130,3 +130,6 @@ const data = { lat, lon };
 
 ## Database Query
 
+- setup route called API that handles GET requests
+
+- for the layout, make divs and the append them to the page
