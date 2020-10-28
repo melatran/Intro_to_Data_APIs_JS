@@ -111,3 +111,13 @@ const data = { lat, lon };
 - server recieves the data (handshake complete)
 
 - Node File system package to save array
+
+## Saving to Database
+
+- Firebase saves data for you
+
+- MongoDB stores data as documents
+
+- this app uses NeDB (not for giant applications just for learnin
+
+- when user clicks submit, it adds the new lat and lon to the array in our db (db starts of empty)

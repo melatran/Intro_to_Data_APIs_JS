@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/melatran/Intro_to_Data_APIs_JS/issues"
   },
-  "homepage": "https://github.com/melatran/Intro_to_Data_APIs_JS#readme"
+  "homepage": "https://github.com/melatran/Intro_to_Data_APIs_JS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  }
 }
